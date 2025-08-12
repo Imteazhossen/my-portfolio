@@ -7,12 +7,12 @@ const Navbar = () => {
 
     const navItems =
         <>
-           
-            <li>About Me</li>
-            <li>Skills</li>
-            <li>Education</li>
-            <li>Projects</li>
-            <li>Contact</li>
+            <li><Link to='/'>Home</Link></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
         </>
     return (
         <div className="navbar sticky top-0 z-50 px-5 bg-primary shadow-sm">
@@ -31,15 +31,15 @@ const Navbar = () => {
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu space-x-3 text-white font-bold menu-horizontal px-1">
-                   {navItems}
+                    {navItems}
                 </ul>
             </div>
             <div className="navbar-end">
-             <button className="btn bg-gradient-to-r from-cyan-700 to-blue-900 text-white font-bold px-4 py-2 sm:px-8 sm:py-3 rounded-full shadow-md transform transition-transform duration-300 ease-in-out hover:scale-110 hover:shadow-lg focus:outline-none border-0">
-                        Download Resume
-                    </button>
+                <button className="btn bg-gradient-to-r from-cyan-700 to-blue-900 text-white font-bold px-4 py-2 sm:px-8 sm:py-3 rounded-full shadow-md transform transition-transform duration-300 ease-in-out hover:scale-110 hover:shadow-lg focus:outline-none border-0">
+                    Download Resume
+                </button>
             </div>
-            
+
         </div>
     );
 };

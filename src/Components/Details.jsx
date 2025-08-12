@@ -1,13 +1,23 @@
 import React from "react";
 import { useParams, Link } from "react-router"; // ✅ Correct import
+import scholarship1 from "../assets/screencapture-scholarship-hub-a7834-web-app-2025-08-12-14_50_03.png";
+import scholarship2 from "../assets/scholarship-hub-dashboard-analytics-2025-08-12-15_31_09.png";
+import scholarship3 from "../assets/screencapture-scholarship-allScholarships.png";
+
+import lang1 from "../assets/screencapture-language-pal-1c4dd-web-app-2025-08-12-14_48_52.png";
+import lang2 from "../assets/-my-booked-tutors.png";
+import lang3 from "../assets/add-tutorial.png";
+
+import parcel1 from "../assets/screencapture-zap-shift-49139-web-app-2025-08-12-14_47_57.png";
+import parcel2 from "../assets/screencapture-zap-shift-49139-web-app-coverage-2025-08-12-15_38_03.png";
+import parcel3 from "../assets/screencapture-zap-shift-49139-web-app-dashboard-paymentHistory-2025-08-12-15_38_56.png";
+
 
 const projectsDetails = {
   scholarshiphub: {
     name: "ScholarshipHub",
     images: [
-      "../assets/screencapture-scholarship-hub-a7834-web-app-2025-08-12-14_50_03.png",
-      "/assets/scholarship2.png",
-      "/assets/scholarship3.png",
+      scholarship1,scholarship2,scholarship3
     ],
     techStack: ["React", "Firebase", "MongoDB", "Node.js"],
     description:
@@ -22,9 +32,8 @@ const projectsDetails = {
   languagepal: {
     name: "LanguagePal",
     images: [
-      "../assets/screencapture-language-pal-1c4dd-web-app-2025-08-12-14_48_52.png",
-      "/assets/language2.png",
-      "/assets/language3.png",
+      lang1,lang2,lang3
+      
     ],
     techStack: [
       "React",
@@ -47,9 +56,9 @@ const projectsDetails = {
   parceldelivery: {
     name: "Parcel Delivery App",
     images: [
-      "../assets/screencapture-zap-shift-49139-web-app-2025-08-12-14_47_57.png",
-      "/assets/parcel2.png",
-      "/assets/parcel3.png",
+      parcel1,
+      parcel2,
+      parcel3
     ],
     techStack: [
       "React",
@@ -62,7 +71,7 @@ const projectsDetails = {
     description:
       "Parcel Delivery App is a logistics platform featuring user/admin/rider dashboards with parcel booking, payment, tracking, and delivery status management.",
     liveLink: "https://zap-shift-49139.web.app",
-    githubClient: "https://github.com/Imteazhossen/parcel-delivery-app-client",
+    githubClient: "https://github.com/Imteazhossen/zap-shift-client",
     challenges:
       "Integrating real-time parcel tracking, role-based access control, and payment workflows using Stripe.",
     improvements:

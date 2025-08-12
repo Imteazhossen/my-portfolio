@@ -44,13 +44,13 @@ const Banner = () => {
                         transition: { duration: 2 },
                     }} className="flex items-center text-secondary gap-4 mb-6">
                         {/* Social Media Icons */}
-                        <a href="https://github.com/YOUR_USERNAME" target="_blank" rel="noopener noreferrer">
+                        <a href="https://github.com/Imteazhossen" target="_blank" rel="noopener noreferrer">
                             <FaGithub size={28} className="hover:text-accent transition" />
                         </a>
-                        <a href="https://linkedin.com/in/YOUR_USERNAME" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.linkedin.com/in/imteaz-hossen/" target="_blank" rel="noopener noreferrer">
                             <FaLinkedin size={28} className="hover:text-accent transition" />
                         </a>
-                        <a href="https://facebook.com/YOUR_USERNAME" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.facebook.com/ImteazMahin" target="_blank" rel="noopener noreferrer">
                             <FaFacebook size={28} className="hover:text-accent transition" />
                         </a>
                     </motion.div>
