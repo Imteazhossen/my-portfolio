@@ -1,4 +1,3 @@
-// components/Banner.jsx
 import React from "react";
 import { FaGithub, FaLinkedin, FaFacebook } from "react-icons/fa";
 import me from '../assets/me.jpg'
@@ -20,11 +19,11 @@ const Banner = () => {
             <div className="container mx-auto px-4 flex flex-col-reverse md:flex-row items-center gap-10">
                 {/* Left - Text Content */}
                 <div className="md:w-1/2">
-                <motion.p initial={{ scale: 0 }} animate={{
+                    <motion.p initial={{ scale: 0 }} animate={{
                         scale: 1,
                         transition: { duration: 2 },
                     }} className="text-2xl mb-2 font-semibold text-secondary">
-                        Hello, I'm  
+                        Hello, I'm
                     </motion.p>
                     <motion.h1 initial={{ scale: 0 }} animate={{
                         scale: 1,
@@ -57,7 +56,17 @@ const Banner = () => {
 
                     {/* Resume Button */}
 
-                    <button className="btn bg-gradient-to-r from-cyan-700 to-blue-900 text-white font-bold px-8 py-3 rounded-full shadow-md transform transition-transform duration-300 ease-in-out hover:scale-110 hover:shadow-lg focus:outline-none border-0">
+                    <button
+                        onClick={() => {
+                            const link = document.createElement('a');
+                            link.href = '/Imteaz_Hossen_Resume.pdf'; // your PDF file path in public folder
+                            link.download = 'Imteaz_Hossen_Resume.pdf';
+                            document.body.appendChild(link);
+                            link.click();
+                            document.body.removeChild(link);
+                        }}
+                        className="btn bg-gradient-to-r from-cyan-700 to-blue-900 text-white font-bold px-4 py-2 sm:px-8 sm:py-3 rounded-full shadow-md transform transition-transform duration-300 ease-in-out hover:scale-110 hover:shadow-lg focus:outline-none border-0"
+                    >
                         Download Resume
                     </button>
 
