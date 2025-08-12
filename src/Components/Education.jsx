@@ -69,7 +69,7 @@ const Education = () => {
         {educationData.map((edu) => (
           <SwiperSlide key={edu.id}>
             <motion.div
-              className="bg-[#535C91] rounded-3xl p-8 shadow-2xl cursor-pointer h-[400px] max-w-xs mx-auto flex flex-col justify-between border border-transparent hover:border-blue-500 transition-all duration-300"
+              className="bg-[#535C91] rounded-3xl p-8 shadow-2xl cursor-pointer h-[460px] md:h-[400px] max-w-xs mx-auto flex flex-col justify-between border border-transparent hover:border-blue-500 transition-all duration-300"
               whileHover={{
                 scale: 1.05,
                 boxShadow: "0 15px 35px rgba(30, 58, 138, 0.6)",

@@ -7,17 +7,17 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="p-20"
+      className="md:p-20 p-5"
       style={{ backgroundColor: "#0D1117" }}
     >
-      <div className=" mx-auto p-10 text-center relative overflow-hidden rounded-2xl border border-gray-700">
+      <div className=" mx-auto py-10 sm:p-10 text-center relative overflow-hidden rounded-2xl border border-gray-700">
         
         {/* Floating Labels */}
         <motion.span
           initial={{ opacity: 0, y: -10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2 }}
-          className="absolute top-8 left-8 bg-gray-800 text-white px-3 py-1 rounded-full text-sm shadow"
+          className="absolute hidden sm:block top-8 left-8 bg-gray-800 text-white px-3 py-1 rounded-full text-sm shadow"
         >
           Web Applications
         </motion.span>
@@ -26,7 +26,7 @@ const Contact = () => {
           initial={{ opacity: 0, x: -10 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ delay: 0.4 }}
-          className="absolute bottom-10 left-12 bg-gray-800 text-white px-3 py-1 rounded-full text-sm shadow"
+          className="absolute hidden sm:block bottom-10 left-12 bg-gray-800 text-white px-3 py-1 rounded-full text-sm shadow"
         >
           FrontEnd
         </motion.span>
@@ -35,7 +35,7 @@ const Contact = () => {
           initial={{ opacity: 0, x: 10 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ delay: 0.6 }}
-          className="absolute top-8 right-8 bg-gray-800 text-white px-3 py-1 rounded-full text-sm shadow"
+          className="absolute hidden sm:block top-8 right-8 bg-gray-800 text-white px-3 py-1 rounded-full text-sm shadow"
         >
           Backend
         </motion.span>
@@ -44,7 +44,7 @@ const Contact = () => {
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.8 }}
-          className="absolute bottom-8 right-16 bg-gray-800 text-white px-3 py-1 rounded-full text-sm shadow"
+          className="absolute hidden sm:block bottom-8 right-16 bg-gray-800 text-white px-3 py-1 rounded-full text-sm shadow"
         >
           Developer
         </motion.span>
@@ -56,7 +56,7 @@ const Contact = () => {
           transition={{ duration: 0.6 }}
           className="text-4xl font-bold text-white mb-4"
         >
-          Let’s build something great <span className="text-[#9290C3]">together.</span>
+          Let's build something great <span className="text-[#9290C3]">together.</span>
         </motion.h2>
 
         {/* Subtitle */}
@@ -66,7 +66,7 @@ const Contact = () => {
           transition={{ delay: 0.3 }}
           className="text-gray-400 mb-8 max-w-2xl mx-auto"
         >
-          Whether you’re looking to collaborate, hire, or just say hello — feel free to reach out.
+          Whether you’re looking to collaborate, hire, or just say hello, feel free to reach out.
         </motion.p>
 
         {/* Contact Info */}

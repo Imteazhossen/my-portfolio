@@ -113,7 +113,7 @@ const AboutMe = () => {
 
         {/* Right Side - Scattered Floating Images */}
         <motion.div
-          className="md:w-1/3 relative h-[400px] w-full"
+          className="md:w-1/3 -ml-10 sm:ml-0 relative h-[400px] w-full"
           initial="hidden"
           whileInView="visible"
           variants={{
