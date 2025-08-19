@@ -11,6 +11,9 @@ import lang3 from "../assets/add-tutorial.png";
 import parcel1 from "../assets/screencapture-zap-shift-49139-web-app-2025-08-12-14_47_57.png";
 import parcel2 from "../assets/screencapture-zap-shift-49139-web-app-coverage-2025-08-12-15_38_03.png";
 import parcel3 from "../assets/screencapture-zap-shift-49139-web-app-dashboard-paymentHistory-2025-08-12-15_38_56.png";
+import hobbyhub1 from "../assets/hobbyHub1.png";
+import hobbyhub2 from "../assets/hobbyhub2.png";
+import hobbyhub3 from "../assets/hobbyhub3.png";
 
 
 const projectsDetails = {
@@ -77,6 +80,33 @@ const projectsDetails = {
     improvements:
       "Implement rider route optimization, add push notifications, and improve analytics dashboard.",
   },
+  hobbyhub: {
+  name: "HobbyHub",
+  images: [
+    hobbyhub1,
+    hobbyhub2,
+    hobbyhub3
+  ],
+  techStack: [
+    "React",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "Firebase Auth",
+    "Tailwind CSS",
+    "DaisyUI"
+  ],
+  description:
+    "HobbyHub is a community platform with user, moderator, and admin dashboards, enabling hobby group creation, joining, real-time updates, and dynamic validations for seamless group management.",
+  liveLink: "https://assignment-10-bacbf.web.app",
+  githubClient: "https://github.com/Imteazhossen/hobbyhub-client-site",
+  githubServer: "https://github.com/Imteazhossen/hobbyhub-server-site",
+  challenges:
+    "Implementing protected routes, dynamic validation for group joining, and ensuring smooth real-time interactions across users.",
+  improvements:
+    "Add push notifications for group activities, implement calendar scheduling for events, and enhance analytics for group engagement."
+}
+
 };
 
 const Details = () => {

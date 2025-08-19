@@ -11,8 +11,10 @@
 @plugin "daisyui/theme" {
   name: "light";
   default: true;
-  --color-primary: #0D1117;
-  --color-secondary: #1E3A8A;
+  /* --color-primary: #0D1117;
+  --color-secondary: #1E3A8A; */
+  --color-primary: #020118;   /* Almost black, dark background */
+--color-secondary: #0B0570; /* Deep navy blue, darker than #1E3A8A */
   
 }
 

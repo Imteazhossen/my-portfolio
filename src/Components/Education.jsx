@@ -12,7 +12,7 @@ const educationData = [
     degree: "B.Sc. in Computer Science & Engineering",
     institution: "University of Liberal Arts Bangladesh (ULAB)",
     location: "Mohammadpur, Dhaka, Bangladesh",
-    startDate: "February 2020",
+    startDate: "February 2022",
     endDate: "Expected February 2026",
     cgpa: "3.49 / 4.00",
     details:
@@ -69,7 +69,7 @@ const Education = () => {
         {educationData.map((edu) => (
           <SwiperSlide key={edu.id}>
             <motion.div
-              className="bg-[#535C91] rounded-3xl p-8 shadow-2xl cursor-pointer h-[460px] md:h-[400px] max-w-xs mx-auto flex flex-col justify-between border border-transparent hover:border-blue-500 transition-all duration-300"
+              className="bg-[#293471] rounded-3xl p-8 shadow-2xl cursor-pointer h-[460px] md:h-[400px] max-w-xs mx-auto flex flex-col justify-between border border-transparent hover:border-blue-500 transition-all duration-300"
               whileHover={{
                 scale: 1.05,
                 boxShadow: "0 15px 35px rgba(30, 58, 138, 0.6)",
@@ -91,7 +91,7 @@ const Education = () => {
                 )}
               </div>
               {edu.details && (
-                <p className="text-sm leading-relaxed text-gray-100">{edu.details}</p>
+                <p className="textarea-xs leading-relaxed text-gray-100">{edu.details}</p>
               )}
             </motion.div>
           </SwiperSlide>

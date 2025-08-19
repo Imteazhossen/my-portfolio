@@ -6,7 +6,7 @@ import { Link } from "react-router"; // corrected import
 // Import your project images (adjust paths accordingly)
 import scholarshipHubImg from "../assets/screencapture-scholarship-hub-a7834-web-app-2025-08-12-14_50_03.png";
 import languagePalImg from "../assets/screencapture-language-pal-1c4dd-web-app-2025-08-12-14_48_52.png";
-import parcelDeliveryImg from "../assets/screencapture-zap-shift-49139-web-app-2025-08-12-14_47_57.png";
+import hobbyhub from "../assets/hobbyhub.png";
 
 const projects = [
   {
@@ -24,11 +24,11 @@ const projects = [
       "A full-stack MERN app connecting language learners with tutors, featuring bookings, reviews, JWT security, and theme toggling.",
   },
   {
-    id: "parceldelivery",
-    name: "Parcel Delivery App",
-    image: parcelDeliveryImg,
+    id: "hobbyhub",
+    name: "HobbyHub",
+    image: hobbyhub ,
     shortDescription:
-      "Modern parcel booking, tracking, and delivery management platform with user, admin, and rider dashboards and Stripe payments.",
+     " Modern hobby group management platform with user, moderator, and admin dashboards, featuring group creation, joining, real-time updates, and dynamic validation.",
   },
 ];
 
