@@ -53,7 +53,7 @@ const Banner = () => {
                         <a href="https://github.com/Imteazhossen" target="_blank" rel="noopener noreferrer">
                             <FaGithub size={28} className="hover:text-accent transition" />
                         </a>
-                        <a href="https://www.linkedin.com/in/imteaz-hossen/" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.linkedin.com/in/md-imteaz-hossen/" target="_blank" rel="noopener noreferrer">
                             <FaLinkedin size={28} className="hover:text-accent transition" />
                         </a>
                         <a href="https://www.facebook.com/ImteazMahin" target="_blank" rel="noopener noreferrer">
