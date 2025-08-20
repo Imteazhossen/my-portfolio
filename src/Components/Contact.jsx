@@ -103,7 +103,7 @@ const Contact = () => {
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
           className="inline-block px-6 py-3 text-white font-semibold rounded-lg shadow-lg"
-          style={{ backgroundColor: "#1E3A8A" }}
+          style={{ backgroundColor: "#0B0570" }}
         >
           Send Message
         </motion.a>
