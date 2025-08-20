@@ -2,6 +2,8 @@ import React from "react";
 import { FaGithub, FaLinkedin, FaFacebook } from "react-icons/fa";
 import me from '../assets/me.jpg'
 import { motion } from "framer-motion";
+import back from '../assets/back.jpg'
+
 // import ShinyText from '../Reactbits/ShinyText'
 // import ShinyText from '../../Bits/ShinyText';
 
@@ -14,7 +16,12 @@ const Banner = () => {
     return (
         <section
             id="home"
-            className="py-10 px-10 flex items-center justify-center bg-primary text-light font-bricolage "
+            style={{
+                backgroundImage: `url(${back})`,
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+            }}
+            className="py-10 bg-[url('../assets/back.jpg')] px-10 flex items-center justify-center bg-primary text-light font-bricolage "
         >
             <div className="container mx-auto px-4 flex flex-col-reverse md:flex-row items-center gap-10">
                 {/* Left - Text Content */}
@@ -22,17 +29,17 @@ const Banner = () => {
                     <motion.p initial={{ scale: 0 }} animate={{
                         scale: 1,
                         transition: { duration: 2 },
-                    }} className="text-2xl mb-2 font-semibold text-secondary">
+                    }} className="text-2xl mb-2 font-semibold text-white">
                         Hello, I'm
                     </motion.p>
                     <motion.h1 initial={{ scale: 0 }} animate={{
                         scale: 1,
                         transition: { duration: 2 },
-                    }} className="text-4xl  text-secondary md:text-5xl font-bold mb-4">Md Imteaz Hossen</motion.h1>
+                    }} className="text-4xl  text-white md:text-5xl font-bold mb-4">Md Imteaz Hossen</motion.h1>
                     <motion.p initial={{ scale: 0 }} animate={{
                         scale: 1,
                         transition: { duration: 2 },
-                    }} className="text-lg mb-6 text-secondary">
+                    }} className="text-lg mb-6 text-white">
                         I am a  MERN stack developer. I love building professional, beautiful and user-friendly
                         web applications.
                     </motion.p>
@@ -41,7 +48,7 @@ const Banner = () => {
                     <motion.div initial={{ scale: 0 }} animate={{
                         scale: 1,
                         transition: { duration: 2 },
-                    }} className="flex items-center text-secondary gap-4 mb-6">
+                    }} className="flex items-center text-white gap-4 mb-6">
                         {/* Social Media Icons */}
                         <a href="https://github.com/Imteazhossen" target="_blank" rel="noopener noreferrer">
                             <FaGithub size={28} className="hover:text-accent transition" />
