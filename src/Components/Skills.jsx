@@ -163,7 +163,7 @@ const Skills = () => {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
         >
-          🌟 Soft Skills
+           Soft Skills
         </motion.h3>
 
         <motion.div
