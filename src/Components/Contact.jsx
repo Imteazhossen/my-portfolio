@@ -8,7 +8,7 @@ const Contact = () => {
     <section
       id="contact"
       className="md:p-20 p-5"
-      style={{ backgroundColor: "#0D1117" }}
+      style={{ backgroundColor: "#020118" }}
     >
       <div className=" mx-auto py-10 sm:p-10 text-center relative overflow-hidden rounded-2xl border border-gray-700">
         
@@ -56,7 +56,7 @@ const Contact = () => {
           transition={{ duration: 0.6 }}
           className="text-4xl font-bold text-white mb-4"
         >
-          Let's build something great <span className="text-[#9290C3]">together.</span>
+          Let's build something great <span className="text-[#44408b]">together.</span>
         </motion.h2>
 
         {/* Subtitle */}
@@ -66,7 +66,7 @@ const Contact = () => {
           transition={{ delay: 0.3 }}
           className="text-gray-400 mb-8 max-w-2xl mx-auto"
         >
-          Whether you’re looking to collaborate, hire, or just say hello, feel free to reach out.
+          Whether you're looking to collaborate, hire, or just say hello, feel free to reach out.
         </motion.p>
 
         {/* Contact Info */}

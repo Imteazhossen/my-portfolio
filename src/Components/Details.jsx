@@ -25,7 +25,7 @@ const projectsDetails = {
     techStack: ["React", "Firebase", "MongoDB", "Node.js"],
     description:
       "ScholarshipHub is a platform for students to explore and apply for scholarships. It supports multiple user roles with role-specific dashboards, secure login, filtering, real-time applications, reviews, and payment gateway integration.",
-    liveLink: "https://scholarshiphub.example.com",
+    liveLink: "https://scholarship-hub-a7834.web.app/media",
     githubClient: "https://github.com/Imteazhossen/scholarship-hub-client",
     challenges:
       "Implementing role-based authentication and authorization, integrating Stripe and Firebase Auth seamlessly, and handling real-time updates.",
