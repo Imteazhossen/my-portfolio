@@ -9,10 +9,10 @@ import Contact from '../../Components/Contact';
 import Footer from '../../Components/Footer';
 
 
+
 const Home = () => {
     return (
         <div className='bg-primary'>
-           
             <Banner></Banner>
             <AboutMe></AboutMe>
             <Skills></Skills>
@@ -20,6 +20,7 @@ const Home = () => {
             <Projects></Projects>
             <Contact></Contact>
             <Footer></Footer>
+
         </div>
     );
 };

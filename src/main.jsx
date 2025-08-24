@@ -5,11 +5,17 @@ import App from './App.jsx'
 import {RouterProvider} from "react-router";
 import { router } from './Route/Route.jsx';
 
+
 createRoot(document.getElementById('root')).render(
   <StrictMode >
     <div className="bricolage">
        <RouterProvider router={router} />
-    </div>
   
+    </div>
+           
+   
   </StrictMode>,
 )
+
+
+// npx jsrepo add https://reactbits.dev/ts/default/Animations/SplashCursor

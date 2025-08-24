@@ -4,8 +4,6 @@ import me from '../assets/me.jpg'
 import { motion } from "framer-motion";
 import back from '../assets/back.jpg'
 
-// import ShinyText from '../Reactbits/ShinyText'
-// import ShinyText from '../../Bits/ShinyText';
 
 
 
@@ -110,6 +108,7 @@ const Banner = () => {
                     />
                 </div>
             </div>
+   
         </section>
     );
 };
