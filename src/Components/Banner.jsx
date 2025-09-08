@@ -75,7 +75,7 @@ const Banner = () => {
                         Download Resume
                     </button> */}
 
-                    <button
+                    {/* <button
                         onClick={() => {
                             const link = document.createElement('a');
                             link.href = '/Imteaz_Hossen_Resume.pdf'; // your PDF file path in public folder
@@ -89,6 +89,23 @@ const Banner = () => {
              text-white font-bold px-4 py-2 sm:px-8 sm:py-3 
              rounded-full shadow-md transform transition-transform duration-300 ease-in-out 
              hover:scale-110 hover:shadow-lg focus:outline-none border-0"
+                    >
+                        Download Resume
+                    </button> */}
+                    <button
+                        onClick={() => {
+                            const link = document.createElement('a');
+                            link.href = 'https://drive.google.com/uc?export=download&id=1EfN5s4VV_61h0ss0YP_lzqgfP-c1a8ha';
+                            link.download = 'Imteaz_Hossen_Resume.pdf';
+                            document.body.appendChild(link);
+                            link.click();
+                            document.body.removeChild(link);
+                        }}
+                        className="btn bg-gradient-to-r from-cyan-700 to-[#0B0570] 
+    hover:from-cyan-800 hover:to-[#09044F] 
+    text-white font-bold px-4 py-2 sm:px-8 sm:py-3 
+    rounded-full shadow-md transform transition-transform duration-300 ease-in-out 
+    hover:scale-110 hover:shadow-lg focus:outline-none border-0"
                     >
                         Download Resume
                     </button>
@@ -108,7 +125,7 @@ const Banner = () => {
                     />
                 </div>
             </div>
-   
+
         </section>
     );
 };
