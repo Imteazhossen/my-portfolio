@@ -4,7 +4,7 @@ This is the personal portfolio website of Md. Imteaz Hossen, a passionate Full-S
 
 ## Live Demo
 
-Check out the live website here: https://md-imteaz-hossen693.netlify.app/
+Check out the live website here: https://imteaz.netlify.app/
 
 ## Features
 
