@@ -20,8 +20,8 @@ Check out the live website here: https://imteaz.netlify.app/
 - Tailwind CSS
 - JavaScript (ES6+)
 - React Router
-- Firebase (if used for auth or hosting, mention here if applicable)
-- Other tools/libraries you used
+- Farmer motion
+- swiper.js
 
 ## Installation & Setup Instructions
 
