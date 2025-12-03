@@ -7,6 +7,7 @@ import Education from '../../Components/Education';
 import Projects from '../../Components/Projects';
 import Contact from '../../Components/Contact';
 import Footer from '../../Components/Footer';
+import Experience from '../../Components/Experience';
 
 
 
@@ -15,6 +16,7 @@ const Home = () => {
         <div className='bg-primary'>
             <Banner></Banner>
             <AboutMe></AboutMe>
+            <Experience></Experience>
             <Skills></Skills>
             <Education></Education>
             <Projects></Projects>
