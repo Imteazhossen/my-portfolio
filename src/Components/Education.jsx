@@ -14,7 +14,7 @@ const educationData = [
     location: "Mohammadpur, Dhaka, Bangladesh",
     startDate: "February 2022",
     endDate: "Expected February 2026",
-    cgpa: "3.49 / 4.00",
+    cgpa: "3.52 / 4.00",
     details:
       "Currently finishing academic courses, internship pending. Actively participated in various programs.",
   },
