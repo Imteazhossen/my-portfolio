@@ -4,7 +4,7 @@ This is the personal portfolio website of Md. Imteaz Hossen, a passionate Full-S
 
 ## Live Demo
 
-Check out the live website here: https://md-imteaz-hossen693.netlify.app/
+Check out the live website here: https://imteaz.netlify.app/
 
 ## Features
 
@@ -20,8 +20,8 @@ Check out the live website here: https://md-imteaz-hossen693.netlify.app/
 - Tailwind CSS
 - JavaScript (ES6+)
 - React Router
-- Firebase (if used for auth or hosting, mention here if applicable)
-- Other tools/libraries you used
+- Farmer motion
+- swiper.js
 
 ## Installation & Setup Instructions
 
