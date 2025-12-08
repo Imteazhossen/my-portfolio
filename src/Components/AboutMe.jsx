@@ -7,7 +7,7 @@ import img1 from "../assets/react.png";
 import img2 from "../assets/tailwind.png";
 import img3 from "../assets/mongo.png";
 import img4 from "../assets/node.png";
-import img5 from "../assets/html.png";
+import img5 from "../assets/nextjs.png";
 import img6 from "../assets/javaScript.png";
 import img7 from "../assets/css.png";
 

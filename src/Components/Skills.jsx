@@ -25,6 +25,7 @@ import daisyui from "../assets/daisyui.jpeg";
 import jwt from "../assets/JWT.png";
 import aftereffects from "../assets/after.png";
 import python from "../assets/python.jpeg";
+import nextjs from "../assets/nextjs.png"
 import Lottie from "lottie-react";
 
 const skills = [
@@ -33,6 +34,7 @@ const skills = [
   { name: "TailwindCSS", img: tailwind },
   { name: "JavaScript", img: js },
   { name: "React", img: react },
+  { name: "Next.js", img: nextjs},
   { name: "Firebase", img: firebase },
   { name: "Express.js", img: express },
   { name: "Node.js", img: nodejs },

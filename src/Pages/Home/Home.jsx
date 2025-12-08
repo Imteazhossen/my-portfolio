@@ -15,7 +15,7 @@ import ParticlesBackground from '../../Components/ParticlesBackground';
 const Home = () => {
     return (
         <div className='bg-primary'>
-            <ParticlesBackground color="#5C5CFF" density={100} zIndex={0} />
+            <ParticlesBackground color="#5C5CFF" density={50} zIndex={0} />
             <Banner></Banner>
             <AboutMe></AboutMe>
             <Experience></Experience>

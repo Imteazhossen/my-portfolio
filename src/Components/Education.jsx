@@ -98,7 +98,7 @@ const Education = () => {
         ))}
       </Swiper>
       <div className="flex justify-center items-center gap-10">
-        <PiHandSwipeLeft  size={25} className="text-white lg:hidden "/><h1 className="mb-5 mt-3 lg:hidden text-center text-white text-2xl">Swipe</h1><PiHandSwipeRight  size={25} className="text-white lg:hidden "/>
+        <PiHandSwipeLeft size={25} className="text-white lg:hidden " /><h1 className="mb-5 mt-3 lg:hidden text-center text-white text-2xl">Swipe</h1><PiHandSwipeRight size={25} className="text-white lg:hidden " />
       </div>
     </section>
   );

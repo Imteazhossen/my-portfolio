@@ -2,20 +2,27 @@ import React from "react";
 import { FaGithub, FaLinkedin, FaFacebook } from "react-icons/fa";
 import me from "../assets/me.jpg";
 import { motion } from "framer-motion";
-import back from "../assets/back.jpg";
+import backGround from "../assets/portfolio-hero-bg.mp4";
 
 const Banner = () => {
   return (
     <section
       id="home"
-      style={{
-        backgroundImage: `url(${back})`,
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-      }}
-      className="py-10 relative z-50 px-10 flex items-center justify-center bg-primary text-light font-bricolage"
+      className="py-10 relative h-[88vh] z-50 px-10 flex items-center justify-center bg-primary text-light font-bricolage"
     >
-      <div className="container mx-auto px-4 flex flex-col-reverse md:flex-row items-center gap-10">
+      {/* Background Video */}
+      <div className="absolute top-0 left-0 w-full h-full z-0">
+        <video
+          src={backGround}
+          type="video/mp4"
+          autoPlay
+          loop
+          muted
+          className="object-cover w-full h-full"
+        />
+      </div>
+
+      <div className="container mx-auto px-4 flex flex-col-reverse md:flex-row items-center gap-10 relative z-10">
         {/* Left - Text Content */}
         <div className="md:w-1/2">
           <motion.p
