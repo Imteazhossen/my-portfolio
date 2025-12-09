@@ -1,8 +1,12 @@
 import React from "react";
 import { FaGithub, FaLinkedin, FaFacebook } from "react-icons/fa";
-import me from "../assets/me.jpg";
+// import me from "../assets/me.jpg";
+import me2 from "../assets/me-removebg.png";
 import { motion } from "framer-motion";
 import backGround from "../assets/portfolio-hero-bg.mp4";
+
+// Import the react-parallax-tilt library
+import ReactTilt from "react-parallax-tilt";
 
 const Banner = () => {
   return (
@@ -86,13 +90,20 @@ const Banner = () => {
           </button>
         </div>
 
-        {/* Right - Profile Image */}
+        {/* Right - Profile Image with React Tilt Effect */}
         <div className="md:w-1/2 flex justify-center">
-          <img
-            src={me}
-            alt="Profile"
-            className="w-85 h-85 rounded-full  object-cover border-secondary shadow-2xl shadow-secondary"
-          />
+          <ReactTilt
+            tiltMaxAngleX={15} // Maximum tilt on X-axis
+            tiltMaxAngleY={15} // Maximum tilt on Y-axis
+            perspective={500} // Perspective depth
+            transitionSpeed={500} // Speed of tilt animation
+          >
+            <img
+              src={me2}
+              alt="Profile"
+              className="w-95 h-95 bg-black/40 backdrop-filter backdrop-blur-sm rounded-full object-cover shadow-secondary shadow-2xl"
+            />
+          </ReactTilt>
         </div>
       </div>
     </section>

@@ -9,6 +9,7 @@ import Contact from '../../Components/Contact';
 import Footer from '../../Components/Footer';
 import Experience from '../../Components/Experience';
 import ParticlesBackground from '../../Components/ParticlesBackground';
+import GreenDot from '../../Components/GreenDot';
 
 
 
@@ -24,7 +25,7 @@ const Home = () => {
             <Projects></Projects>
             <Contact></Contact>
             <Footer></Footer>
-
+            <GreenDot></GreenDot>
         </div>
     );
 };
