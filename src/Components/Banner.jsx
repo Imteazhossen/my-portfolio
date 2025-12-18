@@ -12,7 +12,7 @@ const Banner = () => {
   return (
     <section
       id="home"
-      className="py-10 relative h-[80vh] z-50 px-10 flex items-center justify-center bg-primary text-light font-bricolage"
+      className="py-10 relative z-50 px-10 flex items-center justify-center bg-primary text-light font-bricolage"
     >
       {/* Background Video */}
       <div className="absolute top-0 left-0 w-full h-full z-0">
